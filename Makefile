@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: trnguyen <trnguyen@student.hive.fi>        +#+  +:+       +#+         #
+#    By: deelliot <deelliot@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/03 10:36:32 by deelliot          #+#    #+#              #
-#    Updated: 2022/03/16 17:12:38 by trnguyen         ###   ########.fr        #
+#    Updated: 2022/03/17 14:21:03 by deelliot         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,6 @@ SRCS += 3_create_grid.c
 SRCS += 4_translate_pieces.c
 SRCS += 5_check_fit.c
 SRCS += 6_solve.c
-SRCS += ft_print_array.c
 
 INCLS = fillit.h
 
