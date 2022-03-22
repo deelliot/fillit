@@ -6,12 +6,13 @@
 /*   By: trnguyen <trnguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/23 23:13:47 by trnguyen          #+#    #+#             */
-/*   Updated: 2022/03/16 17:19:04 by trnguyen         ###   ########.fr       */
+/*   Updated: 2022/03/21 12:33:15 by trnguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fillit.h"
 
+/* calculate the minimum size of the grid */
 void	ft_get_min_grid_size(t_solution *solution)
 {
 	int	cells;
@@ -23,21 +24,7 @@ void	ft_get_min_grid_size(t_solution *solution)
 		solution->min_size = ft_find_next_sqrt(cells);
 }
 
-void	ft_free_grid(t_solution *solution)
-{
-	int	i;
-
-	i = 0;
-	while (i < solution->min_size)
-	{
-		ft_strdel(&(solution->grid[i]));
-		i++;
-	}
-	free(solution->grid);
-}
-
 /* malloc char array for grid and fill it with '.'*/
-
 void	ft_create_grid(t_solution *solution)
 {
 	int	i;

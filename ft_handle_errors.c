@@ -6,7 +6,7 @@
 /*   By: trnguyen <trnguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/14 15:42:50 by deelliot          #+#    #+#             */
-/*   Updated: 2022/03/09 16:57:30 by trnguyen         ###   ########.fr       */
+/*   Updated: 2022/03/21 12:29:45 by trnguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,19 @@ void	ft_free_pieces(t_tetri **pieces)
 		free(pieces[i]);
 		i++;
 	}
+}
+
+void	ft_free_grid(t_solution *solution)
+{
+	int	i;
+
+	i = 0;
+	while (i < solution->min_size)
+	{
+		ft_strdel(&(solution->grid[i]));
+		i++;
+	}
+	free(solution->grid);
 }
 
 int	ft_error(char *str, t_tetri **pieces, t_solution *solution)
