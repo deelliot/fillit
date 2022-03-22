@@ -3,14 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: trnguyen <trnguyen@student.hive.fi>        +#+  +:+       +#+        */
+/*   By: deelliot <deelliot@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 15:25:23 by deelliot          #+#    #+#             */
-<<<<<<< HEAD
-/*   Updated: 2022/03/17 14:22:32 by deelliot         ###   ########.fr       */
-=======
-/*   Updated: 2022/03/21 12:23:05 by trnguyen         ###   ########.fr       */
->>>>>>> e3d9b7e172bf12407f56705be3e00770450c9787
+/*   Updated: 2022/03/22 11:00:54 by deelliot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,9 +97,5 @@ int		ft_sqrt(int nb);
 int		ft_find_next_sqrt(int nb);
 int		ft_max(int x, int y);
 void	ft_print_array(char **array, int size);
-<<<<<<< HEAD
-void	ft_translate_array(int *array, int nbr);
-=======
->>>>>>> e3d9b7e172bf12407f56705be3e00770450c9787
 
 #endif
