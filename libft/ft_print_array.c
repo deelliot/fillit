@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_array.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deelliot <deelliot@student.hive.fi>        +#+  +:+       +#+        */
+/*   By: trnguyen <trnguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/18 16:31:46 by deelliot          #+#    #+#             */
-/*   Updated: 2022/03/22 11:01:07 by deelliot         ###   ########.fr       */
+/*   Updated: 2022/03/21 12:22:20 by trnguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,14 +3,26 @@
 /*                                                        :::      ::::::::   */
 /*   4_translate_pieces.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deelliot <deelliot@student.hive.fi>        +#+  +:+       +#+        */
+/*   By: trnguyen <trnguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/20 18:52:54 by deelliot          #+#    #+#             */
-/*   Updated: 2022/03/22 11:00:55 by deelliot         ###   ########.fr       */
+/*   Updated: 2022/03/21 12:32:13 by trnguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fillit.h"
+
+void	ft_translate_array(int *array, int nbr)
+{
+	int	i;
+
+	i = 0;
+	while (i < 4)
+	{
+		array[i] += nbr;
+		i++;
+	}
+}
 
 /*finds the lowest value in the array, and subtracts it from
 each element in the array with the translate array function above.*/
